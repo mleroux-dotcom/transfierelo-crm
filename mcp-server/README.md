@@ -23,6 +23,22 @@ consulte las fuentes **antes** de usar su propio conocimiento.
 
 ## Instalación
 
+### Rápida (recomendada)
+
+Desde la raíz del repositorio:
+- **Windows:** doble clic en `INSTALAR-MCP.bat`.
+- **macOS / Linux:** ejecuta `./instalar-mcp.sh`.
+
+El instalador:
+- compila el servidor;
+- lo prueba;
+- te pide la configuración opcional;
+- lo registra en Claude Code y en Claude Desktop.
+
+Para usarlo sin preguntas: `node scripts/instalar.mjs --si` (toma los valores de las variables de entorno).
+
+### Manual
+
 Requisitos: **Node.js 22 o superior**.
 
 ```bash
